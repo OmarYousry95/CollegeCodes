@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1578922424 source:d:\embedded diploma\extra embedded systems materials\codeblocks trials\2\main.c
+	<stdio.h>
+	<stdlib.h>
+

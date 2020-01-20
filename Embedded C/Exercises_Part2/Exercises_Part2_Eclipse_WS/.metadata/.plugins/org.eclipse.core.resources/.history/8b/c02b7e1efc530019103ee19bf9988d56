@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : BitFields_Ex2.c
+ Author      : Mohamed Tarek
+ Description : Example to illustrate the idea of bit-fields
+ Date        : 31/3/2019
+ ============================================================================
+ */
+#include <stdio.h>
+
+/* define simple structure */
+struct Status
+{
+  unsigned int Set1 : 3;
+  unsigned int      : 29;
+  unsigned int Set2 : 3;
+}Current;
+
+int main()
+{
+	printf("%d\n",&(Current.Set2));
+
+    return 0;
+}

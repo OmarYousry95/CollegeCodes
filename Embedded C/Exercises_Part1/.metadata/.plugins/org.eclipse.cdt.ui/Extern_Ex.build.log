@@ -1,0 +1,8 @@
+23:52:09 **** Rebuild of configuration Debug for project Extern_Ex ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Module.o" "..\\src\\Module.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Extern_Ex.o" "..\\src\\Extern_Ex.c" 
+gcc -o Extern_Ex.exe "src\\Extern_Ex.o" "src\\Module.o" 
+
+23:52:11 Build Finished. 0 errors, 0 warnings. (took 2s.69ms)
+

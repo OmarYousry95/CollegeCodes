@@ -1,0 +1,7 @@
+21:47:55 **** Incremental Build of configuration Debug for project Macros_Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Macros_Ex1.o" "..\\src\\Macros_Ex1.c" 
+gcc -o Macros_Ex1.exe "src\\Macros_Ex1.o" 
+
+21:47:55 Build Finished (took 347ms)
+

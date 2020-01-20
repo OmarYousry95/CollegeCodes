@@ -1,0 +1,47 @@
+Set a bit:
+==========
+PORTx |= (1 << #pin)
+
+Clear a bit:
+============
+PORTx &= ~(1 << #pin)
+
+Toggle a bit:
+=============
+PORTx ^= (1 << #pin)
+
+Check on Logic '1' for certain bit:
+===================================
+if(PINx & (1 << #pin))
+
+Check on Logic '0' for certain bit:
+===================================
+if(!(PINx & (1 << #pin)))
+
+Check on part of port:
+======================
+if((PORTx & 0x0F) == #) //check of 4 LSBs
+if((PORTx & 0xF0)>>4 == #) //check of 4 MSBs
+
+Insert a variable value in PORTx value:
+=======================================
+(PORTx & 0xF0) | (count & 0x0F)
+//Keep 4 MSBs of PORTx unchanged
+//Insert 4 LSBs of count into PORTx without changing
+  4 MSBs value
+---------------------------------------------------------
+**Always insert by OR (After CLEARING the field)
+**Always &1 , |0
+**Always check conditions by AND (Don't check by OR/XOR)
+---------------------------------------------------------
+To initialize more than one bit in a register:
+==============================================
+(1) PORTx = 0x0F; //4 LSBs by 1
+(2) line by line:
+	PORTx |= (1<<0);
+	PORTx |= (1<<1);
+	PORTx |= (1<<2);
+	PORTx |= (1<<3);
+(3) one line:
+	PORTx |= (1<<0) | (1<<1) | (1<<2) | (1<<3)
+if by 0:PORTx &= ~((1<<0) | (1<<1) | (1<<2) | (1<<3))

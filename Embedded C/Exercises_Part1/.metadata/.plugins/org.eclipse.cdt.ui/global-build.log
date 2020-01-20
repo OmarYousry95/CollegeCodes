@@ -1,0 +1,40 @@
+21:47:22 **** Rebuild of configuration Debug for project Macros_Ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Macros_Ex5.o" "..\\src\\Macros_Ex5.c" 
+gcc -o Macros_Ex5.exe "src\\Macros_Ex5.o" 
+Info: Nothing to build for Macros_Ex5
+Info: Nothing to build for Extern_Ex
+21:47:55 **** Incremental Build of configuration Debug for project Macros_Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Macros_Ex1.o" "..\\src\\Macros_Ex1.c" 
+gcc -o Macros_Ex1.exe "src\\Macros_Ex1.o" 
+21:47:55 **** Incremental Build of configuration Debug for project Macros_Ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Macros_Ex2.o" "..\\src\\Macros_Ex2.c" 
+gcc -o Macros_Ex2.exe "src\\Macros_Ex2.o" 
+21:47:55 **** Incremental Build of configuration Debug for project Macros_Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Macros_Ex3.o" "..\\src\\Macros_Ex3.c" 
+gcc -o Macros_Ex3.exe "src\\Macros_Ex3.o" 
+Info: Nothing to build for Macros_Ex4
+Info: Nothing to build for Macros_Ex5
+Info: Nothing to build for PreProcessors_Ex1
+Info: Nothing to build for PreProcessors_Ex10
+Info: Nothing to build for PreProcessors_Ex2
+Info: Nothing to build for PreProcessors_Ex3
+Info: Nothing to build for PreProcessors_Ex4
+Info: Nothing to build for PreProcessors_Ex5
+Info: Nothing to build for PreProcessors_Ex6
+Info: Nothing to build for PreProcessors_Ex7
+Info: Nothing to build for PreProcessors_Ex8
+Info: Nothing to build for PreProcessors_Ex9
+Info: Nothing to build for Static_Local_Ex
+23:52:09 **** Rebuild of configuration Debug for project Extern_Ex ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Module.o" "..\\src\\Module.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Extern_Ex.o" "..\\src\\Extern_Ex.c" 
+gcc -o Extern_Ex.exe "src\\Extern_Ex.o" "src\\Module.o" 
+01:24:30 **** Rebuild of configuration Debug for project Static_Local_Ex ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Static_Local_Ex.o" "..\\src\\Static_Local_Ex.c" 
+gcc -o Static_Local_Ex.exe "src\\Static_Local_Ex.o" 

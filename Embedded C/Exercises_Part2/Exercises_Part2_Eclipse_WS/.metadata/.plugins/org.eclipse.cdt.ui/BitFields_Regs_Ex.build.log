@@ -1,0 +1,36 @@
+23:59:54 **** Incremental Build of configuration Debug for project BitFields_Regs_Ex ****
+make all 
+Building file: ../BitFields_Regs_Ex.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"BitFields_Regs_Ex.d" -MT"BitFields_Regs_Ex.d" -c -o "BitFields_Regs_Ex.o" "../BitFields_Regs_Ex.c"
+In file included from ../BitFields_Regs_Ex.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../BitFields_Regs_Ex.c
+ 
+Building target: BitFields_Regs_Ex.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,BitFields_Regs_Ex.map -mmcu=atmega16 -o "BitFields_Regs_Ex.elf"  ./BitFields_Regs_Ex.o   
+Finished building target: BitFields_Regs_Ex.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S BitFields_Regs_Ex.elf  >"BitFields_Regs_Ex.lss"
+Finished building: BitFields_Regs_Ex.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 BitFields_Regs_Ex.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3334 bytes (20.3% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+23:59:55 Build Finished (took 774ms)
+
