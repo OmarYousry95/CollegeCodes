@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Macros_Ex3/src/Macro_Ex3.c&apos; to &apos;Macros_Ex3.c&apos;" description="Rename resource &apos;Macro_Ex3.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Macro_Ex3.c" name="Macros_Ex3.c" stamp="1554060052635" updateReferences="true"/>
-</session>
